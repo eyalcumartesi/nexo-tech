@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Home, LightbulbIcon, Phone, MenuIcon, X } from "lucide-react";
+import Image from "next/image";
 
 interface NavItem {
 	name: string;
@@ -51,7 +52,12 @@ export const Navbar = () => {
 							whileHover={{ scale: 1.05 }}
 							whileTap={{ scale: 0.95 }}
 						>
-							Nexo Tech
+							<Image
+								src="/logos/namelogo.png"
+								alt="Nexotech"
+								width={120}
+								height={40}
+							/>
 						</motion.div>
 					</Link>
 

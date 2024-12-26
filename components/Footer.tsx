@@ -14,6 +14,7 @@ import {
 	ArrowRight,
 	Globe,
 } from "lucide-react";
+import Image from "next/image";
 
 const footerLinks = {
 	servicios: [
@@ -59,9 +60,12 @@ const Footer = () => {
 					{/* Company Info */}
 					<div className="lg:col-span-2 space-y-8">
 						<Link href="/">
-							<h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-								Nexo Tech
-							</h2>
+							<Image
+								src="/logos/namelogo.png"
+								alt="Nexotech"
+								width={250}
+								height={40}
+							/>
 						</Link>
 						<p className="text-gray-600 max-w-sm">
 							Transformando el futuro digital de las empresas en Panamá y

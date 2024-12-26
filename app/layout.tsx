@@ -56,6 +56,30 @@ export const metadata: Metadata = {
 			url: siteConfig.url,
 		},
 	],
+	icons: {
+		// Basic favicons
+		icon: [
+			{ url: "/favicons/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+			{ url: "/favicons/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+			{ url: "/favicons/favicon.ico", sizes: "48x48" },
+		],
+		// Apple Touch Icons
+		apple: [
+			{
+				url: "/favicons/apple-touch-icon.png",
+				sizes: "180x180",
+				type: "image/png",
+			},
+		],
+		// Other Icons
+		other: [
+			{
+				rel: "mask-icon",
+				url: "/favicons/safari-pinned-tab.svg",
+				color: "#2563eb", // Blue color for Safari pinned tab
+			},
+		],
+	},
 	creator: "Nexo Technology",
 	openGraph: {
 		type: "website",
