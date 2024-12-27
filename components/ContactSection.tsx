@@ -19,7 +19,7 @@ const ContactSection = () => {
 	};
 
 	return (
-		<section className="py-24 bg-blue-50/90 h-screen">
+		<div className="py-24 bg-blue-50/90 h-screen">
 			<div className="max-w-6xl mx-auto px-4">
 				<div className="grid md:grid-cols-2 gap-12 items-start">
 					{/* Contact Info */}
@@ -148,7 +148,7 @@ const ContactSection = () => {
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
 	);
 };
 

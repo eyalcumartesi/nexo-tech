@@ -59,9 +59,9 @@ const ProjectGallery = () => {
 		setActiveProject((prev) => (prev - 1 + projects.length) % projects.length);
 
 	return (
-		<section
+		<div
 			ref={galleryRef}
-			className="min-h-screen bg-white relative overflow-hidden py-10 md:py-20"
+			className="min-h-screen relative overflow-hidden py-10 md:py-20"
 		>
 			{/* Timeline (hidden on mobile) */}
 			<div className="hidden md:block absolute top-0 left-0 w-2 h-full">
@@ -214,7 +214,7 @@ const ProjectGallery = () => {
 					))}
 				</div>
 			</div>
-		</section>
+		</div>
 	);
 };
 

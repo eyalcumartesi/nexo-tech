@@ -92,7 +92,7 @@ export const Hero: React.FC = () => {
 			</div> */}
 
 			{/* Content */}
-			<div className="relative pt-24 pb-32">
+			<div className="relative">
 				{/* Hero Header */}
 				<motion.div
 					style={{ y: textY }}

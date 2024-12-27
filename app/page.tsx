@@ -7,11 +7,23 @@ import TeamSection from "@/components/TeamSection";
 export default function Home() {
 	return (
 		<>
-			<Hero />
-			<AboutUs />
-			<Projects />
-			<TeamSection />
-			<ContactSection />
+			<section className="pt-36">
+				<Hero />
+			</section>
+			<div className="bg-blue-50/50 ">
+				<section id="about" className="pb-24">
+					<AboutUs />
+				</section>
+				<section id="projects" className="pb-24">
+					<Projects />
+				</section>
+				<section id="team" className="pb-24">
+					<TeamSection />
+				</section>
+				<section id="contact">
+					<ContactSection />
+				</section>
+			</div>
 		</>
 	);
 }

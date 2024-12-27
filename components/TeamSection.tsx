@@ -137,7 +137,7 @@ const TeamMemberCard = ({
 
 const TeamSection = () => {
 	return (
-		<section className="py-24 bg-gradient-to-b from-white to-gray-50">
+		<div className="py-24">
 			<div className="max-w-6xl mx-auto px-4">
 				{/* Header */}
 				<div className="text-center max-w-3xl mx-auto mb-20">
@@ -169,7 +169,7 @@ const TeamSection = () => {
 					))}
 				</div>
 			</div>
-		</section>
+		</div>
 	);
 };
 
