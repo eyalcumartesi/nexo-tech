@@ -134,7 +134,7 @@ const TeamMemberCard = ({
 		</motion.div>
 	);
 };
-
+//
 const TeamSection = () => {
 	return (
 		<div className="py-24">
