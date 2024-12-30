@@ -16,7 +16,7 @@ const team = [
 			"Cloud Computing",
 		],
 		image: "/team/eyal.png",
-		linkedin: "https://linkedin.com/in/eyalcumartesi",
+		linkedin: "https://www.linkedin.com/in/eyal-cumartesi-5bb9611b5/",
 		email: "eyalcumartesi02@icloud.com",
 	},
 	{
