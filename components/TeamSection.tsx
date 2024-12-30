@@ -15,9 +15,9 @@ const team = [
 			"IA & Machine Learning",
 			"Cloud Computing",
 		],
-		image: "/team/eyal.jpg",
+		image: "/team/eyal.png",
 		linkedin: "https://linkedin.com/in/eyalcumartesi",
-		email: "eyal@nexotech.com",
+		email: "eyalcumartesi02@icloud.com",
 	},
 	{
 		name: "David Garzon",
@@ -28,9 +28,9 @@ const team = [
 			"Estrategia Comercial",
 			"Consultoría Tecnológica",
 		],
-		image: "/team/david.jpg",
-		linkedin: "https://linkedin.com/in/davidgarzon",
-		email: "david@nexotech.com",
+		image: "/team/david.jpeg",
+		linkedin: "https://www.linkedin.com/in/davidgarzon18/",
+		email: "davidgarzon18@gmail.com",
 	},
 ];
 
