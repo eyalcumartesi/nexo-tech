@@ -1,0 +1,11 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://nexopa.com</loc>
+    <xhtml:link rel="alternate" hreflang="es-PA" href="https://nexopa.com/es"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://nexopa.com/en"/>
+    <lastmod>2024-01-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

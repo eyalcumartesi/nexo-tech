@@ -118,15 +118,13 @@ const ContactSection = () => {
 
 						<div className="space-y-6">
 							<a
-								href="mailto:eyalcumartesi02@icloud.com"
+								href="mailto:eyal@nexopa.com"
 								className="flex items-center gap-4 p-4 bg-white rounded-xl hover:bg-gray-50 transition-colors"
 							>
 								<Mail className="w-6 h-6 text-blue-600" />
 								<div>
 									<div className="font-medium">Email</div>
-									<div className="text-gray-600">
-										eyalcumartesi02@icloud.com
-									</div>
+									<div className="text-gray-600">eyal@nexopa.com</div>
 								</div>
 							</a>
 

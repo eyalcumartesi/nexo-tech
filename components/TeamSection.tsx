@@ -17,7 +17,7 @@ const team = [
 		],
 		image: "/team/eyal.png",
 		linkedin: "https://www.linkedin.com/in/eyal-cumartesi-5bb9611b5/",
-		email: "eyalcumartesi02@icloud.com",
+		email: "eyal@nexopa.com",
 	},
 	{
 		name: "David Garzon",
@@ -30,7 +30,7 @@ const team = [
 		],
 		image: "/team/david.jpeg",
 		linkedin: "https://www.linkedin.com/in/davidgarzon18/",
-		email: "davidgarzon18@gmail.com",
+		email: "david@nexopa.com",
 	},
 ];
 

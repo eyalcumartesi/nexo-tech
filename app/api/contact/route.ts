@@ -21,7 +21,7 @@ export async function POST(req: Request) {
 		// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		const { data: emailData, error } = await resend.emails.send({
 			from: "Contact Form <onboarding@resend.dev>", // Update this with your verified domain
-			to: ["eyalcumartesi02@icloud.com"], // Replace with your email
+			to: ["eyal@nexopa.com"], // Replace with your email
 			replyTo: data.email,
 			subject: `Nuevo contacto: ${data.service}`,
 			html: `
