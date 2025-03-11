@@ -24,9 +24,8 @@ const AboutUs = () => {
 	// Memoized data
 	const stats = useMemo(
 		() => [
-			{ number: "200+", label: "Proyectos Exitosos" },
-			{ number: "50+", label: "Expertos Tech" },
-			{ number: "98%", label: "Satisfacción" },
+			{ number: "10+", label: "Expertos Tech" },
+			{ number: "100%", label: "Satisfacción" },
 			{ number: "24/7", label: "Soporte" },
 		],
 		[]
