@@ -1,9 +1,8 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
+import { Linkedin, Mail } from "lucide-react";
 import Image from "next/image";
-import { Linkedin, Mail, ArrowUpRight } from "lucide-react";
 
 const team = [
 	{
@@ -120,14 +119,6 @@ const TeamMemberCard = ({
 								))}
 							</div>
 						</div>
-
-						<motion.button
-							whileHover={{ gap: "0.75rem" }}
-							className="flex items-center gap-2 text-blue-600 font-medium"
-						>
-							Agendar una llamada
-							<ArrowUpRight className="w-4 h-4" />
-						</motion.button>
 					</div>
 				</div>
 			</div>

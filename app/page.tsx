@@ -2,7 +2,7 @@ import AboutUs from "@/components/AboutUs";
 import ContactSection from "@/components/ContactSection";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
-import TeamSection from "@/components/TeamSection";
+// import TeamSection from "@/components/TeamSection";
 
 export default function Home() {
 	return (
@@ -11,14 +11,14 @@ export default function Home() {
 				<Hero />
 			</section>
 			<div className="bg-blue-50/50 ">
-				<section id="about" className="pb-24">
+				<section id="about" className="p-24">
 					<AboutUs />
 				</section>
 				<section id="projects" className="pb-24">
 					<Projects />
 				</section>
 				<section id="team" className="pb-24">
-					<TeamSection />
+					{/* <TeamSection /> */}
 				</section>
 				<section id="contact">
 					<ContactSection />
